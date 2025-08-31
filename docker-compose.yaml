@@ -1,0 +1,25 @@
+
+services:
+  backend:
+    image: spend_tracker_backend:latest
+    container_name: spend_tracker_backend
+    build:
+      context: ./bot
+      dockerfile: Dockerfile
+    ports:
+      - "8000:8000" 
+    env_file:
+      - .env.backend
+  bot:
+    build:
+      context: ./bot
+      dockerfile: Dockerfile
+    image: spend_tracker_bot:latest
+    container_name: spend_tracker_bot
+    ports:
+      - "8080:8080" 
+    env_file:
+      - .env.bot
+    depends_on:
+      - backend
+
