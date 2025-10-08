@@ -22,8 +22,7 @@
 ![pydantic](https://img.shields.io/badge/pydantic-2.2-blue?logo=python&logoColor=white)
 ![Docker](https://img.shields.io/badge/docker-20.10-blue?logo=docker&logoColor=white)
 ![License](https://img.shields.io/badge/license-MIT-blue)
-![Build](https://img.shields.io/github/actions/workflow/status/USERNAME/REPO_NAME/docker-image.yml?branch=main)
-![Coverage](https://img.shields.io/codecov/c/github/USERNAME/REPO_NAME/main)
+
 
 **Spends Tracker Bot** — это Telegram-бот, разработанный для удобного и быстрого отслеживания личных финансов. С его помощью вы можете регистрировать свои расходы, управлять категориями трат, а также получать аналитику, чтобы лучше понимать, куда уходят ваши деньги.
 
