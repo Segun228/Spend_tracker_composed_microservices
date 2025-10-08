@@ -1,13 +1,31 @@
 # Spends Tracker
 
+
 ## Spends Tracker Backend
+
 ![Python](https://img.shields.io/badge/python-3.9-blue?logo=python&logoColor=white)
 ![Django](https://img.shields.io/badge/django-4.2.23-green?logo=django&logoColor=white)
 ![DRF](https://img.shields.io/badge/DRF-3.16.0-9cf?logo=django&logoColor=white)
+![Pandas](https://img.shields.io/badge/pandas-2.3.1-blue?logo=pandas&logoColor=white)
+![Matplotlib](https://img.shields.io/badge/matplotlib-3.9.4-orange?logo=matplotlib&logoColor=white)
+![Seaborn](https://img.shields.io/badge/seaborn-0.13.2-4B0082?logo=seaborn&logoColor=white)
+![Gunicorn](https://img.shields.io/badge/gunicorn-23.0.0-blue?logo=python&logoColor=white)
+![drf-spectacular](https://img.shields.io/badge/drf--spectacular-0.28.0-purple?logo=django&logoColor=white)
+![Docker](https://img.shields.io/badge/docker-20.10-blue?logo=docker&logoColor=white)
+![License](https://img.shields.io/badge/license-MIT-blue)
+
+## Spends Tracker Bot 🤖
+
+![Python](https://img.shields.io/badge/python-3.9-blue?logo=python&logoColor=white)
+![aiogram](https://img.shields.io/badge/aiogram-3.0-blue?logo=telegram&logoColor=white)
+![aiohttp](https://img.shields.io/badge/aiohttp-3.9-blue?logo=python&logoColor=white)
+![pydantic](https://img.shields.io/badge/pydantic-2.2-blue?logo=python&logoColor=white)
 ![Docker](https://img.shields.io/badge/docker-20.10-blue?logo=docker&logoColor=white)
 ![License](https://img.shields.io/badge/license-MIT-blue)
 ![Build](https://img.shields.io/github/actions/workflow/status/USERNAME/REPO_NAME/docker-image.yml?branch=main)
 ![Coverage](https://img.shields.io/codecov/c/github/USERNAME/REPO_NAME/main)
+
+**Spends Tracker Bot** — это Telegram-бот, разработанный для удобного и быстрого отслеживания личных финансов. С его помощью вы можете регистрировать свои расходы, управлять категориями трат, а также получать аналитику, чтобы лучше понимать, куда уходят ваши деньги.
 
 **Spends Tracker Backend** — это ключевой микросервис для приложения по управлению и анализу личных финансов. Он предоставляет API для выполнения CRUD-операций с данными о доходах и расходах, а также включает аналитические и визуализационные инструменты на основе данных.
 
